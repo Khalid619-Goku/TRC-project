@@ -1,5 +1,15 @@
 .home{
     background-image: url("https://wallpapercave.com/wp/4NRBzbD.jpg");
     min-height: 100vh;
-   
+    color: white;
+   text-align: center;
+}
+.h1{
+    text-size-adjust: 30px;
+}
+.history{
+    text-align: left;
+    min-height: 60vh;
+    padding-left: 5%;
+    padding-top: 5%;
 }
