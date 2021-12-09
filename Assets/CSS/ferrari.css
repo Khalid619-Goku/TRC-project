@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./Assets/image/red-ferrari(1).jpg") center/cover no-repeat;
+    background:url("/Assets/image/final-ferrari-background.jpg") center/cover no-repeat;
     color: #fff;
 }
 .top-nav a{
@@ -176,17 +176,17 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 blockquote{
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 300;
     opacity: 0.9;
     width: 60vw;
     margin: 45px auto 15px auto;
     text-align: center;
-    color: #7be74a;
-    font-family: Bold,Italic, 'Meow Script';
+    color:#c6ffaf;
+    font-family: Bold,Italic, 'Meow Script',cursive;
     position: absolute;
     top:135px;
-    right:285px;
+    left: 299px;
 }
 blockquote span{
     font-size: 14px;
@@ -236,7 +236,7 @@ blockquote span{
 }
 .sec-one-left{
     height: 100vh;
-    background: url("images/project-main.jpg") center/cover no-repeat;
+    background: url("/Assets/image/ferrari\ f1.com_wallpaper.jpg") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -276,12 +276,12 @@ blockquote span{
     grid-column-gap: 20px;
 }
 .work-img-1{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("images/porject-1.jpg") center/cover no-repeat;
+    background: url("https://th.bing.com/th/id/OIP.meY2g8rVcfe5l3Me48-MXAHaE8?pid=ImgDet&rs=1") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
 .work-img-2{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("images/porject-2.jpg") center/cover no-repeat;
+    background: url("https://th.bing.com/th/id/OIP.Rdp_v65wd7QCnE0rGaWKCwHaEK?pid=ImgDet&w=5120&h=2880&rs=1") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
@@ -468,6 +468,7 @@ blockquote span{
 /******************* Footer Styling *****************/
 
 .footer{
+    background-color: #222324;
     background: var(--dark);
     color: #fff;
     padding: 40px 0;
