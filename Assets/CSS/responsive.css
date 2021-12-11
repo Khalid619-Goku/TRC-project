@@ -1,0 +1,7 @@
+
+@media (max-width: 735px) {
+    blockquote {
+        display: none;
+        margin: 0 0 1rem;
+    }
+  }

@@ -309,7 +309,9 @@ blockquote span{
 }
 .insta-imgs{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    width:20%;
+    height:auto;
+    grid-template-columns: repeat(3, 1fr);
 }
 .insta-imgs > div{
     position: relative;
@@ -543,7 +545,7 @@ blockquote span{
 @media screen and (min-width: 800px){
     /* section two */
     .insta-imgs{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 
     /* section three */
@@ -720,4 +722,10 @@ blockquote span{
         grid-row-gap: 20px;
     }
     
+}
+@media all and (min-width: 600px){
+      
+    font-size: 1.5rem;
+    line-height: 1.5;
+  
 }

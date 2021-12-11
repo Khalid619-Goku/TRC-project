@@ -4,6 +4,8 @@
     color: white;
    text-align: left;
 }
+
+
 .h1{
     text-size-adjust: 30px;
 }
@@ -13,11 +15,11 @@
     padding-left: 2%;
     padding-top: 5%;
 }
-.supercar{
+/* .supercar{
     position: absolute;
     top: 115px;
 
-}
+} */
 /* animation */
 * {
     box-sizing: border-box;
@@ -115,4 +117,10 @@
     100% {
       stroke-dashoffset: var(--stroke-dash-negative);
     }
+  }
+  @media all and (min-width: 600px){
+      
+        font-size: 1.5rem;
+        line-height: 1.5;
+      
   }
