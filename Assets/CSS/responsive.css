@@ -1,4 +1,7 @@
-
+.home-flex{
+    display: flex;
+}
+.row1
 @media (max-width: 735px) {
     blockquote {
         display: none;
