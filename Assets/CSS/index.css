@@ -1,8 +1,10 @@
 .home{
+    display: flex;
+    align-items: center;
     background-image: url("https://wallpapercave.com/wp/4NRBzbD.jpg");
     min-height: 100vh;
     color: white;
-   text-align: left;
+    text-align: left;
 }
 
 
