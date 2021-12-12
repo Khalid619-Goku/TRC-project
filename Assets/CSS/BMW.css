@@ -236,7 +236,7 @@ blockquote span{
 }
 .sec-one-left{
     height: 100vh;
-    background: url("./Assets/image/sec-;eft-bmw.jpg") center/cover no-repeat;
+    background: url(".,/image/sec-;eft-bmw.jpg") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -276,12 +276,12 @@ blockquote span{
     grid-column-gap: 20px;
 }
 .work-img-1{
-    background: url("./Assets/image/white-bmw.jpg") center/cover no-repeat;
+    background: url("../image/white-bmw.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
 .work-img-2{
-    background: url("./Assets/image/black-bmw.png") center/cover no-repeat;
+    background: url("../image/black-bmw.png") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
